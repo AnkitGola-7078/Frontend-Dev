@@ -1,0 +1,337 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    img{
+        border-radius: 50%;
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+    }
+    tr, th, td {
+        border-collapse: collapse;
+        padding: 10px 60px;
+        text-align: left;
+    }
+    th {
+        background-color: rgb(231, 188, 234);
+    }
+    .circle {
+        height: 10px;
+        width: 10px;
+        background-color: green;
+        border-radius: 50%;
+        display: inline-block;
+        margin-right: 5px;
+    }
+    .col1text h1 {
+        margin: 0;
+        font-size: 16px;
+    }
+    .col1text p {
+        margin: 0;
+        font-size: 12px;
+        color: gray;
+    }
+    .col1 {
+        display: flex;
+        align-items: center;
+    }
+    .col1img {
+        width: 40px;
+        height: 40px;
+        
+        margin-right: 10px;
+    }
+    .col6 {
+        display: flex;
+        align-items: center;
+    }
+    .col6img {
+        width: 40px;
+        height: 50px;
+        
+        margin-right: 10px;
+    }
+    .col6text h1 {
+        margin: 0;
+        font-size: 16px;
+    }
+    .col6text p {
+        margin: 0;
+        font-size: 12px;
+        color: gray;
+    }
+</style>
+<body>
+    <table>
+        <tr>
+            <th>Company</th>
+            <th>Status</th>
+            <th>Joined</th>
+            <th>Emp.Size</th>
+            <th>Location</th>
+            <th>Contact</th>
+            <th>Billing</th>
+            <th>Edit</th>
+        </tr>
+        <tr>
+    <td>
+        <div class="col1">
+            <div class="col1img"><img src="image.png" alt=""></div>
+            <div class="col1text">
+                <h1>Crazyheads</h1>
+                <p>Content placement individ...</p>
+            </div>
+        </div>
+    </td>
+    <td>
+        <div style="display: flex; justify-content: center; align-items: center;">
+            <div class="circle" style="background-color: green;"></div>
+            <div class="status">Approved</div>
+        </div>
+    </td>
+    <td>May '11</td>
+    <td>11-50</td>
+    <td>Sunnyvale</td>
+    <td>
+        <div class="col6">
+            <div class="col6img"><img src="image.png" alt=""></div>
+            <div class="col6text">
+                <h1>Angel Swift</h1>
+                <p>Product Owner</p>
+            </div>
+        </div>
+    </td>
+    <td>
+        <div>
+            <div>$20,863</div>
+            <div>Team 10+</div>
+        </div>
+    </td>
+    <td><button>Edit</button></td>
+</tr>
+<tr>
+    <td>
+        <div class="col1">
+            <div class="col1img"><img src="image.png" alt=""></div>
+            <div class="col1text">
+                <h1>ChurkasData</h1>
+                <p>Voice processing and anal...</p>
+            </div>
+        </div>
+    </td>
+    <td>
+        <div style="display: flex; justify-content: center; align-items: center;">
+            <div class="circle" style="background-color: orange;"></div>
+            <div class="status">Awaiting approval</div>
+        </div>
+    </td>
+    <td>Apr '13</td>
+    <td>201-500</td>
+    <td>Silicon Valley</td>
+    <td>
+        <div class="col6">
+            <div class="col6img"><img src="image.png" alt=""></div>
+            <div class="col6text">
+                <h1>Ronald Kepler</h1>
+                <p>CTO</p>
+            </div>
+        </div>
+    </td>
+    <td>
+        <div>
+            <div>$56,892</div>
+            <div>Enterprise</div>
+        </div>
+    </td>
+    <td><button>Edit</button></td>
+</tr>
+<tr>
+    <td>
+        <div class="col1">
+            <div class="col1img"><img src="image.png" alt=""></div>
+            <div class="col1text">
+                <h1>Onhovered row</h1>
+                <p>Additional state provided</p>
+            </div>
+        </div>
+    </td>
+    <td>
+        <div style="display: flex; justify-content: center; align-items: center;">
+            <div class="circle" style="background-color: gray;"></div>
+            <div class="status">No status</div>
+        </div>
+    </td>
+    <td>Apr '13</td>
+    <td>1-10</td>
+    <td>San Francisco</td>
+    <td>
+        <div class="col6">
+            <div class="col6img"><img src="image.png" alt=""></div>
+            <div class="col6text">
+                <h1>Michele Penisboro</h1>
+                <p>The UI president</p>
+            </div>
+        </div>
+    </td>
+    <td>
+        <div>
+            <div>$5,843</div>
+            <div>Single license</div>
+        </div>
+    </td>
+    <td><button>Edit</button></td>
+</tr>
+<tr>
+    <td>
+        <div class="col1">
+            <div class="col1img"><img src="image.png" alt=""></div>
+            <div class="col1text">
+                <h1>Jopka Telecom</h1>
+                <p>Connecting people all ove...</p>
+            </div>
+        </div>
+    </td>
+    <td>
+        <div style="display: flex; justify-content: center; align-items: center;">
+            <div class="circle" style="background-color: green;"></div>
+            <div class="status">Approved</div>
+        </div>
+    </td>
+    <td>Jan '13</td>
+    <td>1-10</td>
+    <td>San Francisco</td>
+    <td>
+        <div class="col6">
+            <div class="col6img"><img src="image.png" alt=""></div>
+            <div class="col6text">
+                <h1>Adam Shwest</h1>
+                <p>Product Owner</p>
+            </div>
+        </div>
+    </td>
+    <td>
+        <div>
+            <div>$2,047</div>
+            <div>Single license</div>
+        </div>
+    </td>
+    <td><button>Edit</button></td>
+</tr>
+<tr>
+    <td>
+        <div class="col1">
+            <div class="col1img"><img src="image.png" alt=""></div>
+            <div class="col1text">
+                <h1>Setproduct</h1>
+                <p>Design systems for faster ...</p>
+            </div>
+        </div>
+    </td>
+    <td>
+        <div style="display: flex; justify-content: center; align-items: center;">
+            <div class="circle" style="background-color: red;"></div>
+            <div class="status">Rejected</div>
+        </div>
+    </td>
+    <td>Aug '13</td>
+    <td>11-50</td>
+    <td>Palo Alto</td>
+    <td>
+        <div class="col6">
+            <div class="col6img"><img src="image.png" alt=""></div>
+            <div class="col6text">
+                <h1>Natalie Rufus</h1>
+                <p>Delivering sexy UI since 19...</p>
+            </div>
+        </div>
+    </td>
+    <td>
+        <div>
+            <div>$11,692</div>
+            <div>Team 2+</div>
+        </div>
+    </td>
+    <td><button>Edit</button></td>
+</tr>
+<tr>
+    <td>
+        <div class="col1">
+            <div class="col1img"><img src="image.png" alt=""></div>
+            <div class="col1text">
+                <h1>Dutka Incorporated</h1>
+                <p>We’re inhaling gently</p>
+            </div>
+        </div>
+    </td>
+    <td>
+        <div style="display: flex; justify-content: center; align-items: center;">
+            <div class="circle" style="background-color: green;"></div>
+            <div class="status">Approved</div>
+        </div>
+    </td>
+    <td>Nov '14</td>
+    <td>201-500</td>
+    <td>San Francisco</td>
+    <td>
+        <div class="col6">
+            <div class="col6img"><img src="image.png" alt=""></div>
+            <div class="col6text">
+                <h1>Laughing Poppa</h1>
+                <p>Getting double boosted</p>
+            </div>
+        </div>
+    </td>
+    <td>
+        <div>
+            <div>$112,039</div>
+            <div>Enterprise</div>
+        </div>
+    </td>
+    <td><button>Edit</button></td>
+</tr>
+<tr>
+    <td>
+        <div class="col1">
+            <div class="col1img"><img src="image.png" alt=""></div>
+            <div class="col1text">
+                <h1>inDinero Studio</h1>
+                <p>Content placement individ...</p>
+            </div>
+        </div>
+    </td>
+    <td>
+        <div style="display: flex; justify-content: center; align-items: center;">
+            <div class="circle" style="background-color: green;"></div>
+            <div class="status">Approved</div>
+        </div>
+    </td>
+    <td>May '12</td>
+    <td>1-10</td>
+    <td>San Francisco</td>
+    <td>
+        <div class="col6">
+            <div class="col6img"><img src="image.png" alt=""></div>
+            <div class="col6text">
+                <h1>Calvin Johnson</h1>
+                <p>Content placement individ...</p>
+            </div>
+        </div>
+    </td>
+    <td>
+        <div>
+            <div>$1,843</div>
+            <div>Single license</div>
+        </div>
+    </td>
+    <td><button>Edit</button></td>
+</tr>
+
+    </table>
+</body>
+</html>
