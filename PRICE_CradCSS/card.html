@@ -1,0 +1,277 @@
+<!-- <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+       body{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+        margin:0;
+       }
+       div{
+        height: 1000px;
+        width: 1000px;
+        border: 2px solid black;
+        border-radius: 20px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+       }
+       .subdiv{
+            height: 500px;
+            width: 900px;
+            
+            margin: auto;
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            margin-top: 150px;
+            }
+            
+            .sub1{
+            height: 400px;
+            width: 200px;
+             border-radius: 20px;
+             background-color: white;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            }
+
+            .sub2{     
+            height: 400px;
+            width: 200px;
+             border-radius: 20px;
+           background-color: white;
+            display: flex;  
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            }
+
+            .sub3{
+            height: 400px;
+            width: 200px;
+             border-radius: 20px;
+          background-color: white;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            }
+            .sub4{
+            height: 400px;
+            width: 200px;
+            border-radius: 20px;
+            background-color: white;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            
+            }
+            .card1_sub1{
+                height: auto;
+                width: auto;
+                margin: 20px;
+                text-align: center;
+            }
+            h1{
+                margin: 0;
+            }
+    </style>
+</head>
+<body>
+    <div class="container">
+       <h1><b>Add Credits</b></h1> 
+        <div class="subdiv">
+            <div class="sub1">
+                <div class="card1_sub1"><h3>200</h3></div>
+                <div class="card1_sub1"><p>Starter pack to help you to get started</p></div>   
+                <div class="card1_sub1"><h1><b>$10</b></h1></div> 
+                <div class="card1_sub1"><button>Choose Plan</button></div>    
+                
+            </div>
+            <div class="sub2">
+                <div class="card1_sub1"><h3>200</h3></div>
+                <div class="card1_sub1"><p>Starter pack to help you to get started</p></div>   
+                <div class="card1_sub1"><h1><b>$10</b></h1></div> 
+                <div class="card1_sub1"><button>Choose Plan</button></div>    
+            </div>
+            <div class="sub3">
+                <div class="card1_sub1"><h3>200</h3></div>
+                <div class="card1_sub1"><p>Starter pack to help you to get started</p></div>   
+                <div class="card1_sub1"><h1><b>$10</b></h1></div> 
+                <div class="card1_sub1"><button>Choose Plan</button></div>    
+            </div>
+            <div class="sub4">
+                <div class="card1_sub1"><h3>200</h3></div>
+                <div class="card1_sub1"><p>Starter pack to help you to get started</p></div>   
+                <div class="card1_sub1"><h1><b>$10</b></h1></div> 
+                <div class="card1_sub1"><button>Choose Plan</button></div>    
+            </div>
+        </div>
+    </div>
+</body>
+</html> -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Add Credits</title>
+  <style>
+    * {
+      box-sizing: border-box;
+      font-family: 'Segoe UI', sans-serif;
+    }
+
+    body {
+      margin: 0;
+      height: 100vh;
+      background-color: rgb(22, 21, 21);
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+
+    .container {
+      width: 1000px;
+      height: auto;
+      background-color: #fff;
+      border-radius: 20px;
+      padding: 30px;
+            text-align: center;
+    }
+
+    .container h1 {
+      margin-bottom: 30px;
+      font-size: 32px;
+      color: #202124;
+      text-align: left;
+    }
+
+    .subdiv {
+      display: flex;
+      justify-content: space-between;
+      flex-wrap: wrap;
+      gap: 20px;
+      margin-bottom: 30px;
+    }
+
+    .sub1, .sub2, .sub3, .sub4 {
+      background-color: #ffffff;
+      width: 220px;
+      height: 420px;
+      border-radius: 20px;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      padding: 20px;
+      
+     
+    }
+
+    .sub2 {
+      background-color: #e6f4ea;
+      border: 2px solid white;
+    }
+
+    .card1_sub1 {
+      margin: 10px 0;
+      text-align: center;
+    }
+
+    .card1_sub1 h3 {
+      font-size: 22px;
+      color: #333;
+      margin: 0;
+    }
+
+    .card1_sub1 p {
+      font-size: 14px;
+      color: #666;
+      margin: 10px 0;
+    }
+
+    .card1_sub1 h1 {
+      font-size: 28px;
+      color: #111;
+      margin: 10px 0;
+    }
+
+    .card1_sub1 button {
+      padding: 10px 20px;
+     
+      font-weight: bold;
+      cursor: pointer;
+    }
+
+    .sub2 button {
+      background-color: #34a853;
+      color: white;
+      border: none;
+    }
+
+    .sub1 button,
+    .sub3 button,
+    .sub4 button {
+      background-color: white;
+      color: black;
+      border: 2px solid black;
+    }
+
+    .play-button {
+      background-color: #34a853;
+      color: white;
+      font-weight: bold;
+      padding: 12px 30px;
+      border: none;
+      border-radius: 30px;
+      font-size: 16px;
+      cursor: pointer;
+    }
+    span{
+        font-size: 16px;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <h1><b>Add Credits</b></h1>
+    <div class="subdiv">
+      <div class="sub1">
+        <div class="card1_sub1"><h3>200<span>credits</span></h3></div>
+        <div class="card1_sub1"><p>Starter pack to help you get started.</p></div>
+        <div class="card1_sub1"><h1>$10</h1></div>
+        <div class="card1_sub1"><button>Choose Plan</button></div>
+      </div>
+      <div class="sub2">
+        <div class="card1_sub1"><h3>500<span>credits</span></h3></div>
+        <div class="card1_sub1"><p>More power for small teams to create project plans with confidence.</p></div>
+        <div class="card1_sub1"><h1>$20</h1></div>
+        <div class="card1_sub1"><button>Choose Plan</button></div>
+      </div>
+      <div class="sub3">
+        <div class="card1_sub1"><h3>1000<span>credits</span></h3></div>
+        <div class="card1_sub1"><p>For managers that need to manage work happening across multiple teams.</p></div>
+        <div class="card1_sub1"><h1>$100</h1></div>
+        <div class="card1_sub1"><button>Choose Plan</button></div>
+      </div>
+      <div class="sub4">
+        <div class="card1_sub1"><h3>3000<span>credits</span></h3></div>
+        <div class="card1_sub1"><p>For enterprises that need additional security, control, and support.</p></div>
+        <div class="card1_sub1"><h1>$2000</h1></div>
+        <div class="card1_sub1"><button>Choose Plan</button></div>
+      </div>
+    </div>
+    <button class="play-button">Play Now</button>
+  </div>
+</body>
+</html>
