@@ -1,0 +1,30 @@
+body {
+  font-family: sans-serif;
+  margin: 0;
+  padding: 20px;
+}
+
+.demo-row {
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+  align-items: center;
+
+}
+
+a:hover {
+  color: red;
+}
+
+input:focus {
+  border: 2px solid blue;
+}
+
+button:active {
+  background-color: green;
+  color: white;
+}
+
+li:nth-child(odd) {
+  background-color: #eee;
+}
